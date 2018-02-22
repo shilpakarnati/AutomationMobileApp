@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.testbase.UpdateBillingInfo">
+        <methods>
+          <include name="Billinginfo"/>
+          <include name="Capabilities"/>
+        </methods>
+      </class> <!-- com.testbase.UpdateBillingInfo -->
+      <class name="com.testbase.DataDrivenTest">
+        <methods>
+          <include name="testcase123"/>
+        </methods>
+      </class> <!-- com.testbase.DataDrivenTest -->
+      <class name="com.testbase.PurchaseItem">
+        <methods>
+          <include name="itemPurchase"/>
+          <include name="Capabilities"/>
+        </methods>
+      </class> <!-- com.testbase.PurchaseItem -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
